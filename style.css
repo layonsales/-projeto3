@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.carousel-item img {
+    width: 100%;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+
+.social-media li {
+    list-style: none;
+    display: inline;
+}
+
+.social-media li a {
+    text-decoration: none;
+}
+
+#produtos .nav-link.active {
+    background-color: black;
+    color: white;
+}
+
+#produtos .nav-link {
+    color: black;
+}
+
+header .navbar-collapse .nav-link{
+    color: white;
+}
+
+header .navbar-collapse .nav-link.active{
+    background-color: white;
+    color: black;
+}
+
+
+@media (min-width: 768px) {
+    .about_store_img{
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .about_store_img{
+        margin-top: 5px;
+    }
+}

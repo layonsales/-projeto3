@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motors</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg bg-dark p-3 sticky-top" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand fw-bold fs-3">Motors</h1>
+            <button type="button" class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#navegation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <nav class="navbar-collapse collapse justify-content-end" id="navegation">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre-a-loja">Sobre a loja</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promocoes">Promoções</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-a-loja">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <img src="imagens/pexels-kevin-commandeur-18321507(4).jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="imagens/pexels-broderick-armbrister-6462662.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <img src="imagens/pexels-mike-bird-6010581.jpg" alt="">
+                    </div>
+                </div>
+
+                <button type="button" class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+
+                <button type="button" class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-6 about_store_img">
+                        <img src="imagens/koenigsegg_ccxr_trevita.jpg" class="d-block w-100" alt="">
+                    </div>
+
+                    <div class="col-md-6 mt-3">
+                        <h2>Sobre a loja</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur molestiae facilis corrupti voluptas repellat accusantium animi, voluptatem tempore voluptate. Explicabo molestias adipisci facilis assumenda nostrum enim veritatis exercitationem ipsum at!</p>
+
+                        <h2>História</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad assumenda saepe nisi temporibus accusamus totam cum quasi, voluptas accusantium velit aut perspiciatis dolorum similique dignissimos eveniet vel tenetur? Vitae, alias.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-dark" id="promocoes">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 mt-3 text-center">
+                        <h1 class="text-white fw-bold">Promoções</h1>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <div class="col-md-4">
+                        <img src="imagens/camaro.jpeg" class="d-block w-100" alt="">
+
+                        <h3 class="mt-3 text-white">Promoção</h3>
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="imagens/Mansory_Sanguis_Bentley_Continental_GT.jpg" class="d-block w-100" alt="">
+
+                        <h3 class="mt-3 text-white">Promoção</h3>
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <img src="imagens/Ferrari_F430_Scuderia.jpg" class="d-block w-100" alt="">
+
+                        <h3 class="mt-3 text-white">Promoção</h3>
+                        <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="p-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center mb-3">
+                        <h1 class="fw-bold">Produtos</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <aside class="col-md-2 butoes">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-de-alto-desempenho" class="nav-link active">Carros de alto desempenho</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-de-luxo" class="nav-link">Carros de luxo</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#carros-antigos" class="nav-link">Carros antigos</button>
+                        </nav>
+                    </aside>
+
+                    <div class="col-md-10 mt-3">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="carros-de-alto-desempenho">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img src="imagens/2014_BMW_328i_GT_xDrive_Sport_Line.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">BMW</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit..</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/Mansory Carbonado GT.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">Mansory Carbonado</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/2014_BMW_328i_GT_xDrive_Sport_Line.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">BMW</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/Mansory Carbonado GT.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">Mansory Carbonado</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/2014_BMW_328i_GT_xDrive_Sport_Line.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">BMW</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/Mansory Carbonado GT.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">Mansory Carbonado</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/2014_BMW_328i_GT_xDrive_Sport_Line.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">BMW</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img src="imagens/Mansory Carbonado GT.jpg" class="d-block w-100" alt="">
+                                        <h3 class="mt-2">Mansory Carbonado</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit..</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="carros-de-luxo">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/Pagani_Zonda.jpg" alt="">
+                                        <h3 class="mt-2">Pagani Zonda</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/ssc-ultimate-aero-blue.jpg" alt="">
+                                        <h3 class="mt-2">ssc ultimate aero blue</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/Pagani_Zonda.jpg" alt="">
+                                        <h3 class="mt-2">Pagani Zonda</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/ssc-ultimate-aero-blue.jpg" alt="">
+                                        <h3 class="mt-2">ssc ultimate aero blue</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/Pagani_Zonda.jpg" alt="">
+                                        <h3 class="mt-2">Pagani Zonda</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/ssc-ultimate-aero-blue.jpg" alt="">
+                                        <h3 class="mt-2">ssc ultimate aero blue</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/Pagani_Zonda.jpg" alt="">
+                                        <h3 class="mt-2">Pagani Zonda</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/ssc-ultimate-aero-blue.jpg" alt="">
+                                        <h3 class="mt-2">ssc ultimate aero blue</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane" id="carros-antigos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1969_Dodge_Charger_green_F.jpg" alt="">
+                                        <h3 class="mt-2">1969 Dodge Charger green</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1971_maverick_grabber.jpg" alt="">
+                                        <h3 class="mt-2">1971 maverick grabber</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1969_Dodge_Charger_green_F.jpg" alt="">
+                                        <h3 class="mt-2">1969 Dodge Charger green</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1971_maverick_grabber.jpg" alt="">
+                                        <h3 class="mt-2">1971 maverick grabber</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1969_Dodge_Charger_green_F.jpg" alt="">
+                                        <h3 class="mt-2">1969 Dodge Charger green</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1971_maverick_grabber.jpg" alt="">
+                                        <h3 class="mt-2">1971 maverick grabber</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1969_Dodge_Charger_green_F.jpg" alt="">
+                                        <h3 class="mt-2">1969 Dodge Charger green</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="imagens/1971_maverick_grabber.jpg" alt="">
+                                        <h3 class="mt-2">1971 maverick grabber</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="bg-dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-white mt-3 fw-bold">Contato</h1>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label text-white">Seu nome</label>
+                                <input type="text" class="form-control" name="nome" id="nome" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label text-white">E-mail</label>
+                                <input type="email" class="form-control" name="email" id="email" required>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label text-white">Telefone</label>
+                                <input type="number" class="form-control" name="numero" id="numero">
+                            </div>
+
+                            <button type="submit" class="btn bg-light text-dark">Enviar</button>
+                        </form>
+                    </div>
+
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="fs-4 text-white">Redes sociais</h3>
+
+                            <ul class="social-media">
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-white"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-twitter text-white ms-1 me-1"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-white"></i>
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-white ms-1"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="row mt-4">
+                            <h3 class="text-white">Endereço</h3>
+                            <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
